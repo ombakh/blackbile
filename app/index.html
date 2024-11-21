@@ -1,8 +1,36 @@
 <!DOCTYPE html>
-<link rel="stylesheet" href="stylesheet.css">
-<h1>
-    Blackbile
-</h1>
-<p>
-    Input your information and your risk of having a mental illness will be predicted
-</p>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>blackbile</title>
+</head>
+<body>
+<h1>blackbile</h1>
+<form action="#" method="post">
+    <!-- age Input -->
+    <label for="age">Age:</label>
+    <input type="number" id="age" name="age" min="0" required>
+    <br><br>
+
+    <!-- gender Input -->
+    <label for="gender">Gender:</label>
+    <select id="gender" name="gender" required>
+        <option value="" disabled selected>Select your gender</option>
+        <option value="male">Male</option>
+        <option value="female">Female</option>
+        <option value="other">Other</option>
+        <option value="prefer-not-to-say">Prefer not to say</option>
+    </select>
+    <br><br>
+
+    <!-- hours Worked Per Week Input -->
+    <label for="hours">Hours Worked Per Week:</label>
+    <input type="number" id="hours" name="hours" min="0" required>
+    <br><br>
+
+    <!-- submit Button -->
+    <button type="submit">Submit</button>
+</form>
+</body>
+</html>
