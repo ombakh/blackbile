@@ -1,9 +1,72 @@
+/* General Styles */
 body {
-    background-color: black;
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
 }
+
+/* Form Container */
+.form-container {
+    background-color: #ffffff;
+    padding: 20px 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 400px;
+}
+
+/* Heading */
 h1 {
-    color: sienna;
+    font-size: 24px;
+    margin-bottom: 400px;
+    color: #333333;
+    text-align: center;
+    padding: 20px;
 }
-p {
-    color: saddlebrown;
+
+/* Labels */
+label {
+    font-size: 14px;
+    color: #555555;
+    margin-bottom: 8px;
+    display: block;
+}
+
+/* Inputs and Select Dropdown */
+input, select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #cccccc;
+    border-radius: 5px;
+    font-size: 14px;
+    box-sizing: border-box;
+}
+
+/* Focus Effect for Inputs and Select */
+input:focus, select:focus {
+    border-color: #6c63ff;
+    outline: none;
+}
+
+/* Button Styling */
+button {
+    background-color: #6c63ff;
+    color: #ffffff;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    width: 100%;
+}
+
+/* Button Hover Effect */
+button:hover {
+    background-color: #584ae3;
 }
